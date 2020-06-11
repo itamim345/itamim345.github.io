@@ -1,0 +1,91 @@
+.{
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	background: rgb(20,0,10,0.4);  
+	font-family: 'Nunito', sans-serif;
+	font-size: 14px;
+}
+p{
+	font-size: 16px;
+}
+h1{
+	font-size: 26px;
+	font-weight: bold;
+}
+h3{
+	font-size: 24px;
+	font-weight: bold;
+	color : #E74C3C;
+}
+
+
+/* Style the navbar */
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky{
+  padding-top: 60px;
+}
+
+
+.carousel-caption h3{
+	color : #fff;
+}
+
+#main img {
+	margin-top: -60px;
+}
+#main .card{
+	box-shadow: 3px 3px 3px 9px rgb(211,201,211);
+}
+.mn {
+	margin-bottom: 60px;
+}
+thead{
+	color : red;
+}
+
+
+
+/* carosel slider */
+.drk:after {
+    content:"";
+    display:block;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:#000;
+    opacity:0.5;
+}
+
+/* resposive css*/
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100% !important;
+    max-width: none !important;
+    padding: 0 10px !important;
+  }
+}
